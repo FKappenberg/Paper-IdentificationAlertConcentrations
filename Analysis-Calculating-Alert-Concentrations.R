@@ -335,13 +335,11 @@ vpll.scen3.large <- t(sapply(models.scen3.large, function(mod){
 }))
 
 
-
 save(aloecs.scen1.large, aloecs.scen2.large, aloecs.scen3.large,
      loecs.t.scen1.large, loecs.t.scen2.large, loecs.t.scen3.large,
      loecs.dun.scen1.large, loecs.dun.scen2.large, loecs.dun.scen3.large,
      vpll.scen1.large, vpll.scen2.large, vpll.scen3.large,
      file="Benchmark.VarLarge.TwoSided.RData")
-
 
 ##
 # Determine the number of negative diagonal entries of the covariance matrix

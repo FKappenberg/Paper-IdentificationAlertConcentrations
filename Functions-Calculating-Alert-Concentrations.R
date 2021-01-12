@@ -5,7 +5,7 @@
 
 ##required libraries
 library(drc)
-library(multcomp) #for glht, i.e. the Dunnett procedure
+library(multcomp) #for glht, specifically the Dunnett procedure
 
 
 ############################################
